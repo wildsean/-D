@@ -1,0 +1,47 @@
+a{
+  text-decoration: none;
+}
+$ipt-width: 20%;
+%el-container{
+  margin-bottom: 40px;
+}
+
+@mixin button-size{
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 14px;
+  }
+
+%el-header{
+  background-color: #007df1;
+  color: #fff;
+  text-align: center;
+  line-height: 60px;
+}
+
+@mixin el-main{
+  background-color: #E9EEF3;
+  color: #333;
+  height: 600px;
+  text-align: center;
+  line-height: 160px;
+}
+
+@mixin el-main-block{
+  width: 90%;
+  min-height: 200px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  color: #333;
+  background-color: #ffffff;
+  box-shadow: 5px 10px 30px #c7c4be;
+}
+.el-col{
+  height: 40px;
+}
+.el-table th{
+  padding: 0;
+  line-height: 60px;
+  text-align: center;
+}
